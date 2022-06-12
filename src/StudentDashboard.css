@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url(./fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
+  height: 100vh;
+  background-color: rgba(80, 80, 150, .2);
+}
+
+aside .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: rgb(20, 0, 90);
+  margin: 40px 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 100vh;
+  padding-bottom: 40px;
+}
+
+nav .top,
+nav .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+aside .nav-btn {
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1em;
+  color: rgb(20, 0, 90);
+  background-color: transparent;
+}
+
+aside .nav-btn:focus {
+  background-color: white;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);;
+}
+
+button {
+  display: flex;
+  align-items: center;
+}
+
+aside img {
+  width: 1em;
+  margin-right: 10px;
+}
