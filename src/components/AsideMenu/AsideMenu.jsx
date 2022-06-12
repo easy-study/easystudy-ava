@@ -1,8 +1,8 @@
 import React from "react";
-import {home, courses, schedule, support, settings} from "./assets/icons/icons";
-import "./StudentDashboard.css";
+import {home, courses, schedule, support, settings} from "../../assets/icons/icons";
+import "../AsideMenu/AsideMenu.css";
 
-function App() {
+function AsideMenu() {
   return (
     <aside>
       <h1 className="logo">Easy Study</h1>
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default AsideMenu;
