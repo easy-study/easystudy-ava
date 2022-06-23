@@ -1,5 +1,6 @@
 .section-title {
   margin-top: 20px;
+  font-size: 1.4em;
 }
 
 .recommended-courses .carousel {
@@ -9,7 +10,7 @@
 }
 
 .recommended-courses .carousel-card {
-  background: linear-gradient(to right bottom, blue, violet);
+  background: linear-gradient(to right bottom, yellow, violet);
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
   min-width: 200px;
