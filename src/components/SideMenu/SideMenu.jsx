@@ -1,4 +1,3 @@
-import React from "react";
 import {home, courses, schedule, support, settings} from "../../assets/icons/icons";
 import "./SideMenu.css";
 

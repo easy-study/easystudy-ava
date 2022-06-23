@@ -2,13 +2,13 @@
   margin-top: 20px;
 }
 
-.my-courses .carousel {
+.recommended-courses .carousel {
   margin-top: 30px;
   display: flex;
   overflow: hidden;
 }
 
-.my-courses .carousel-card {
+.recommended-courses .carousel-card {
   background: linear-gradient(to right bottom, blue, violet);
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
