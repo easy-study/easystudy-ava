@@ -4,6 +4,7 @@ import schedule from './schedule-icon.png';
 import support from './support-icon.png';
 import settings from './settings-icon.png';
 import user from './user-icon.png';
+import menu from './menu-icon.png';
 
 export {
   home,
@@ -11,5 +12,6 @@ export {
   schedule,
   support,
   settings,
-  user
+  user,
+  menu
 }

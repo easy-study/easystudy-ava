@@ -1,8 +1,13 @@
+.menu-btn img{
+  width: 48px;
+  cursor: pointer;
+}
+
 .topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 55px 0;
+  margin: 24px 0;
 }
 
 .user-welcome,

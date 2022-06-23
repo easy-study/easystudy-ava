@@ -1,8 +1,8 @@
 import React from "react";
 import {home, courses, schedule, support, settings} from "../../assets/icons/icons";
-import "../AsideMenu/AsideMenu.css";
+import "./SideMenu.css";
 
-function AsideMenu() {
+function SideMenu() {
   return (
     <aside>
       <h1 className="logo">Easy Study</h1>
@@ -22,4 +22,4 @@ function AsideMenu() {
   );
 }
 
-export default AsideMenu;
+export default SideMenu;
