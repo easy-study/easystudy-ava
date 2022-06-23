@@ -77,28 +77,3 @@ aside img {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 1920px) {
-  aside {
-    max-width: 20%;
-  }
-
-  .menu-btn {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  aside {
-    max-width: 25%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  aside {
-    display: none;
-  }
-
-  .menu-btn {
-    display: block;
-  }
-}
