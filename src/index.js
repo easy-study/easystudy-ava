@@ -10,13 +10,13 @@ import './responsive.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className="container">
-      <SideMenu />
-      <div className='main'>
-        <TopBar />
-        <MyCourses />
-        <RecommendedCourses />
+      <div className="container">
+        <SideMenu />
+        <div className='main'>
+          <TopBar />
+          <MyCourses />
+          <RecommendedCourses />
+        </div>
       </div>
-    </div>
   </React.StrictMode>
 );
