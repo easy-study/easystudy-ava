@@ -44,6 +44,7 @@ aside .nav-btn {
   font-size: 1em;
   color: rgb(20, 0, 90);
   background-color: transparent;
+  text-decoration: none;
 }
 
 aside .top .nav-btn:first-child {

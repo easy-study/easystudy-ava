@@ -1,4 +1,5 @@
 import {home, courses, schedule, support, settings} from "../../assets/icons/icons";
+import { Link } from "react-router-dom";
 import "./SideMenu.css";
 
 function SideMenu() {
@@ -7,14 +8,14 @@ function SideMenu() {
       <h1 className="logo">Easy Study</h1>
       <nav>
         <div className="top">
-          <button className="nav-btn"><img src={home} alt="home" />Início</button>
-          <button className="nav-btn"><img src={courses} alt="courses" />Meus Cursos</button>
-          <button className="nav-btn"><img src={schedule} alt="schedule" />Agenda</button>
-          <button className="nav-btn"><img src={support} alt="support" />Suporte</button>
+          <Link to="/" className="nav-btn"><img src={home} alt="home" />Início</Link>
+          <Link to="/meus-cursos" className="nav-btn"><img src={courses} alt="courses" />Meus Cursos</Link>
+          <Link to="/agenda" className="nav-btn"><img src={schedule} alt="schedule" />Agenda</Link>
+          <Link to="/suporte" className="nav-btn"><img src={support} alt="support" />Suporte</Link>
         </div>
 
         <div className="bottom">
-          <button className="nav-btn"><img src={settings} alt="settings" />Configurações</button>
+        <Link to="/configuracoes" className="nav-btn"><img src={settings} alt="settings" />Configurações</Link>
         </div>
       </nav>
     </aside>
