@@ -66,3 +66,8 @@ aside img {
   margin-right: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(20, 0, 90);
+}
+

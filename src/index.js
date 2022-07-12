@@ -5,6 +5,7 @@ import SideMenu from './components/SideMenu/SideMenu';
 import TopBar from './components/TopBar/TopBar';
 import MyCourses from './components/MyCourses/MyCourses';
 import RecommendedCourses from './components/RecommendedCourses/RecommendedCourses';
+import Suporte from './components/Suporte/Suporte';
 import './index.css';
 import './responsive.css';
 
@@ -17,9 +18,10 @@ root.render(
         <div className='main'>
           <TopBar />
           <Routes>
-            <Route path='/meus-cursos' element = {<MyCourses />}></Route>
+            <Route path='/' element = {<RecommendedCourses />} />
+            <Route path='/meus-cursos' element = {<MyCourses />} />
+            <Route path='/suporte' element = {<Suporte />} />
           </Routes>
-          <RecommendedCourses />
         </div>
       </div>
     </React.StrictMode>
