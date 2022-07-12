@@ -10,7 +10,7 @@
 }
 
 .my-courses .carousel-card {
-  background: linear-gradient(to right bottom, blue, violet);
+  background: linear-gradient(to right bottom, blue, rgb(0, 0, 118));
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
   min-width: 200px;
@@ -19,6 +19,22 @@
   margin-bottom: 20px;
   cursor: pointer;
   transition: all .2s;
+  text-align: center;
+  color: #FFF;
+}
+
+.my-courses .carousel-card h3 {
+  font-size: 1.3em;
+  margin-top: 70%;
+  transform: translateY(-70%);
+  color: #FFF;
+}
+
+.my-courses .carousel-card span {
+  font-size: 1.2em;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, .1);
 }
 
 .carousel-card:hover {
